@@ -4,7 +4,7 @@ import traceback
 from botocore.exceptions import ClientError
 
 region = 'us-west-2'
-WLisntances = ['i-097dd3431105dcf6c','i-06f7cc07af6f28acc','i-0de0b982026f19185','i-0010e21e910eaa17b']
+WLisntances = ['i-xxxinstacenid','i-0xxxx']
 
 def lambda_handler(event, context):
     try:
